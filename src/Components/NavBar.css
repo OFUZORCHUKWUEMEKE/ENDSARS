@@ -1,0 +1,76 @@
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-small, .btn-floating, .dropdown-content, .collapsible, .sidenav {
+     -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.0), 0 3px 1px -2px rgba(0,0,0,0), 0 1px 5px 0 rgba(0,0,0,0); 
+     box-shadow: 0 2px 2px 0 rgba(0,0,0,0), 0 3px 1px -2px rgba(0,0,0,0), 0 1px 5px 0 rgba(0,0,0,0); 
+}
+
+
+.centt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.fontt{
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+.mttt{
+    margin-top: 17px;
+}
+.imgg{
+    min-height: 100vh;
+}
+
+
+@media (max-width:850px){
+    .imgg{
+        min-height: 85vh;
+    }
+    .fontt{
+        font-size: 17px;
+    }
+}
+.sarz{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+span:before{
+    content: "";
+    animation: animate infinite 10s;
+}
+@keyframes animate{
+    0%{
+        content:"KILLING US";
+    }
+    20%{
+        content: "HARRASSING US";
+    }
+    40%{
+        content: "EXTORTING US";
+
+    }
+    60%{
+        content: "TORTURING US";
+    }
+    80%{
+        content:"SHOOTING US"
+    }
+    100%{
+        content: "SARS NOW!!!!";
+    }
+}
